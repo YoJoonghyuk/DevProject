@@ -1,6 +1,7 @@
-from main import calculate_age
+from tests.main import calculate_age
 import os
 import pycodestyle
+import pytest
 
 def test_calculate_age_correct():
     birthdate = "1990-01-01"
