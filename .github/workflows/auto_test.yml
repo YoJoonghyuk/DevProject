@@ -22,5 +22,6 @@ jobs:
         pip install flake8
     - name: Test codestyle
       run: flake8 
+      
     - name: Test code
       run: pytest test.py
