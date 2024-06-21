@@ -17,6 +17,7 @@ def calculate_age(birthdate):
 if __name__ == "__main__":
     birthdate = input("Введите дату рождения в формате YYYY-MM-DD: ")
     age = calculate_age(birthdate)
+    
     if isinstance(age, int):
         print(f"Ваш возраст: {age} лет")
     else:
